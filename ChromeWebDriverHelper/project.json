@@ -1,0 +1,39 @@
+{
+  "name": "UiPathTeam.ChromeWebDriverHelper.Activities",
+  "description": "Library simplifying the use of the Chrome Webdriver",
+  "main": "NewActivity.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "18.4.1",
+    "UiPath.WebAPI.Activities": "1.4.1"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "19.10.4.0",
+  "projectVersion": "1.0.8",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Library",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": [
+        "internal/GetChromeVersion.xaml",
+        "internal/GetWebdriverLink.xaml",
+        "internal/Download.xaml",
+        "internal/CheckPath.xaml"
+      ]
+    },
+    "fileInfos": []
+  },
+  "expressionLanguage": "VisualBasic"
+}
